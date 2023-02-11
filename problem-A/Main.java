@@ -6,8 +6,9 @@ public class Main {
         Dog Ruslan = new Dog("Ruslan");
         System.out.println(pig.toString());
         System.out.println(Barsik.toString());
+        Barsik.greets();
         System.out.println(Ruslan.toString());
         Ruslan.greets();
-        Ruslan.greets();
+        Ruslan.greets(Ruslan);
     }
 }
