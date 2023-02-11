@@ -8,5 +8,6 @@ public class Mammals extends Animal{
     @Override
     public String toString() {
         String Mammal = "Mammal[" + super.toString()+ "]";
+        return Mammal;
     }
 }
