@@ -9,6 +9,6 @@ public class Animal {
     @Override
     public String toString() {
 
-        return "Animal[" + this.name + "]";
+        return String.format("Animal[%s]", name);
     }
 }

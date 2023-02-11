@@ -1,4 +1,5 @@
-public class Cat extends Mammals
+
+public class Cat extends Mammal
 {
     public Cat(String name) {
         super(name);
@@ -10,7 +11,6 @@ public class Cat extends Mammals
     }
     @Override
     public String toString() {
-        String Cat = "Cat[" + super.toString()+ "]";
-        return Cat;
+        return String.format("Cat[%s]", super.toString());
     }
 }

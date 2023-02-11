@@ -1,4 +1,4 @@
-public class Dog extends Mammals
+public class Dog extends Mammal
 {
     public Dog(String name) {
         super(name);
@@ -14,7 +14,6 @@ public class Dog extends Mammals
     }
     @Override
     public String toString() {
-        String Dog = "Dog[" + super.toString()+ "]";
-        return Dog;
+        return String.format("Dog[%s]", super.toString());
     }
 }

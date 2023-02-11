@@ -8,5 +8,6 @@ public class Main {
         System.out.println(Barsik.toString());
         System.out.println(Ruslan.toString());
         Ruslan.greets();
+        Ruslan.greets();
     }
 }
