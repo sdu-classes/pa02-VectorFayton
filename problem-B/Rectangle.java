@@ -1,8 +1,8 @@
 import java.util.Random;
 
 public class Rectangle extends Shape{
-    double width = 1.0f;
-    double length = 1.0f;
+    private double width = 1.0f;
+    private double length = 1.0f;
 
     public Rectangle()
     {}
@@ -28,7 +28,7 @@ public class Rectangle extends Shape{
         this.width = width;
     }
 
-    public double getLength() {
+    double getLength() {
         return length;
     }
 

@@ -1,7 +1,6 @@
-import java.awt.*;
 
 public class Shape {
-    private String color;
+    private String color = "red";
     private boolean filled = true;
     public Shape()
     {
@@ -31,9 +30,6 @@ public class Shape {
 
     @Override
     public String toString() {
-        return "Shape[" +
-                "color='" + color +
-                ", filled=" + filled +
-                ']';
+        return String.format("Shape[%s], color = %s, filled = %s]",super.toString(), color, filled ? "filled":"not filled");
     }
 }
