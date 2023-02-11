@@ -28,6 +28,11 @@ public class Square extends Rectangle
 
     public setLength(double side)
     {
-        super();
+        super(side, side);
+    }
+
+    public String toString()
+    {
+        return "Square[" + super.toString() + "]";
     }
 }
