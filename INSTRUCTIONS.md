@@ -1,7 +1,7 @@
 # Enter your information here
 ```
-Full name: ___ ___
-Student ID: ___ ___
+Full name: Alimkulov Nurbol
+Student ID: 220 103 036
 ```
 
 # Practice activity 2
